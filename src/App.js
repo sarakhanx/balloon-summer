@@ -23,12 +23,13 @@ function App() {
               <blockquote class="blockquote">
                 <p>HAPPINESS IS IN THE AIR.</p>
               </blockquote>
-              <figcaption class="blockquote-footer">เมนูชั้นนำ</figcaption>
+              <figcaption class="blockquote-footer">เมนูแนะนำ</figcaption>
             </figure>
             {elementComponent}
           <div className='container mb-2 borderline'></div>
           <p>lorem</p>
           <img src="https://drive.google.com/uc?export=view&id=1e3wxcrog61Btq-OmmBwJb-w6jAdRPMSQ" alt="drive image"/>
+          <h1 className='text.primary'>ลอง push GitHub ดูอีกที</h1>
           <img src="https://drive.google.com/uc?export=view&id=1dwH3sA1IFgP5nGAVrb2cz2xOQ1SMfcZb" alt="drive image"/>
         </div>
     </div>
