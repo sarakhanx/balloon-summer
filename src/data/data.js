@@ -1,17 +1,17 @@
 
 const elements = [
     {
-      image: "https://drive.google.com/file/d/1e3wxcrog61Btq-OmmBwJb-w6jAdRPMSQ/view?usp=share_link",
+      image: "https://drive.google.com/uc?export=view&id=1ySBrzaQW05e24TC0CpPSplq64SeKVzjA",
       title:"KIDS MENU",
       content:"Kids Birthday SET",
 
     },
     {
-      image: "../asset/Header-02.png",
+      image: "https://drive.google.com/uc?export=view&id=1ySBrzaQW05e24TC0CpPSplq64SeKVzjA",
       title:"CUTIE !!",
       content:"Everyday Balloons",
     },{
-      image: "../asset/Header-03.png",
+      image: "https://drive.google.com/uc?export=view&id=1ySBrzaQW05e24TC0CpPSplq64SeKVzjA",
       title:"Marry Me MENU",
       content:"Would you say YES ?",
     }

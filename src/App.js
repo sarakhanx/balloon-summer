@@ -4,7 +4,10 @@ import Navbars from './Components/Navbars';
 import Header from './Components/Header';
 import Cards from './Components/Cards';
 import elements from './data/data';
-import ContentComponent from './Components/ContentComponent.js';
+import Footer from './Components/Footer';
+import QouteBanner from './Components/QouteBanner';
+
+
 
 
 
@@ -14,25 +17,27 @@ function App() {
   })
   
   return (
-    
-    <div className='body'>
+    <>
+    <div className='body fluid'>
       <Navbars/>
       <Header/>
-          <div class="container row justify-content-sm-center mt-3">
-          <figure class="text-center">
-              <blockquote class="blockquote">
-                <p>HAPPINESS IS IN THE AIR.</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">เมนูแนะนำ</figcaption>
-            </figure>
+      <QouteBanner/>
+          <div className="container row justify-content-sm-center">
             {elementComponent}
+            </div>
           <div className='container mb-2 borderline'></div>
-          <p>lorem</p>
-          <img src="https://drive.google.com/uc?export=view&id=1e3wxcrog61Btq-OmmBwJb-w6jAdRPMSQ" alt="drive image"/>
-          <h1 className='text.primary'>ลอง push GitHub ดูอีกที</h1>
-          <img src="https://drive.google.com/uc?export=view&id=1dwH3sA1IFgP5nGAVrb2cz2xOQ1SMfcZb" alt="drive image"/>
+          <div className='container text-center mb-2'>
+            <h1>บริการส่งด่วน ภายใน1ชม.</h1>
+            <p className='text-secondary'> lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum</p>
+            <div className="d-grid gap-2">
+            <button className='btn servicesbtn rounded-pill'>จองคิว CLICK!! เลย</button>
+            </div>
+          
         </div>
+        
     </div>
+    <Footer/>
+    </>
   );
 }
 

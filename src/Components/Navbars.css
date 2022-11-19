@@ -13,3 +13,9 @@ nav {
 .foreground {
     background: linear-gradient(to top, rgba(0, 0, 0,0), rgba(0, 0, 0, 1));
 }
+.qoutebanner{
+    background-color: #ffb7cd;
+}
+.qoutebanner h1 p {
+    text-align: center;
+}
