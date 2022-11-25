@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: #f3bfbe;
+    background-color: #ffb7cd;
 }
 
-.card {
+.card-prod {
     width: 18rem;
 }
 .foreground {
@@ -15,6 +15,7 @@ nav {
 }
 .qoutebanner{
     background-color: #ffb7cd;
+
 }
 .qoutebanner h1 p {
     text-align: center;

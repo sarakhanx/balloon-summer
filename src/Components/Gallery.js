@@ -7,7 +7,7 @@ function Gallery(){
         <>
         <Navbars/>
         <div className="container">
-        <h1>Hello Gallery</h1>
+        <h1 className='text-primary'>Hello Gallery</h1>
         </div>
         <Footer/>
         </>

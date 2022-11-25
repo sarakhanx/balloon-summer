@@ -8,19 +8,19 @@ function Navbars() {
             <div className='sticky-top'>
             <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid">
-                        <div className="container">
+                        
                             <a className="navbar-brand" href="/">
                             <img width="80" height="auto" className="d-inline-block align-text-top" src={Logo} alt="logo"/>
                             </a>
-                        </div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+                <button className="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-                <div className="navbar-nav me-auto">
-                    <a className="nav-link" href="/">PRODUCT</a>
-                    <Link className="nav-link" to="/gallery">GALLERY</Link>
-                    <a className="nav-link" href="/">Contact</a>
+                <div className="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                    <Link className="nav-link text-center" to="/product">PRODUCT</Link>
+                    <Link className="nav-link text-center" to="/gallery">GALLERY</Link>
+                    <Link className="nav-link text-center" to="/contact">Contact</Link>
                 </div>
                 </div>
             </div>
