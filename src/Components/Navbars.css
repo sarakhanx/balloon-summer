@@ -8,15 +8,24 @@ nav {
 }
 
 .card-prod {
-    width: 18rem;
+    width: 20rem;
 }
 .foreground {
     background: linear-gradient(to top, rgba(0, 0, 0,0), rgba(0, 0, 0, 1));
 }
 .qoutebanner{
     background-color: #ffb7cd;
+    padding-bottom: 200;
+    border-radius: 50px 50px 0px 0px;
 
 }
 .qoutebanner h1 p {
     text-align: center;
 }
+.services{
+    background-color: #ffe600b9;
+    border-radius: 50px 50px 0px 0px;
+  }
+a {
+    text-decoration: none;
+  }

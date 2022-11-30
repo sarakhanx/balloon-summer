@@ -1,7 +1,15 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 function Review() {
+
+    useEffect(() => {
+        AOS.init({data_aos_once:false});
+      }, [])
     return(
         <>
-        <section>
+        <section data-aos='fade-up'>
   <div class="row d-flex justify-content-center">
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="pt-2 mb-4">Review From Our Customer</h3>

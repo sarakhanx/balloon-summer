@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 *{
-  font-family: 'Nerko One', cursive;
+  font-family: 'Arvo', serif;
 }
 .App {
   text-align: center;
@@ -43,10 +43,9 @@
 
 
 .services{
-  background-color: #ffb7cd;
+  background-color: #ffe600b9;
   border-radius: 50px 50px 0px 0px;
 }
-
-.hilightbackground{
-  background-color: #ffe6005f;
+.undertext {
+  background-color: rgba(0, 0, 0, 0.235);
 }

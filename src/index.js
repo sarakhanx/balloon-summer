@@ -5,6 +5,7 @@ import App from './App';
 import Gallery from './Components/Gallery';
 import Contact from './Components/Contact';
 import Product from './Components/Product';
+import Faq from './Components/Faq';
 
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
@@ -17,6 +18,7 @@ root.render(
         <Route path='product' element={<Product/>}/>
         <Route path='gallery' element={<Gallery/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='questions-and-answer' element={<Faq/>}/>
         
       </Routes>
   </BrowserRouter>

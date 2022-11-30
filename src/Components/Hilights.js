@@ -1,15 +1,30 @@
 import '../App.css'
-function Hilight(props) {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
-    const {element} = props
+function Hilight(props) {
+    useEffect(() => {
+        AOS.init({data_aos_once:false},
+          {data_aos_duration:"3000"}
+          );
+      }, [])
+
+    const {data} = props
     return(
         <>
         <div className="mt-1">
-        <div className="card ">
-        <img src={element.imagebanner} className="card-img rounded" alt="slide"/>
-    <div class="card-img-overlay bd-highlight text-start">
-        <h5 className="card-title">{element.title}</h5>
-        <p className="card-text">{element.update}</p>
+        <div
+        data-aos="fade-up"
+        className="card ">
+        <img src={data.imagebanner} className="card-img rounded" alt="slide"/>
+    <div 
+    data-aos="fade-up"
+    class="card-img-overlay bd-highlight text-start">
+        <div className='undertext p-2'>
+        <h5 className="card-title text-light">{data.title}</h5>
+        <p className="card-text text-light">{data.update}</p>
+        </div>
         </div>
 </div>
         
