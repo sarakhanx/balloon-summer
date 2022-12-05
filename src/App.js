@@ -14,6 +14,7 @@ import Review from './Components/Reviews';
 
 
 
+
 function App() {
 
 
@@ -34,7 +35,6 @@ const bannerdata = bannerdatas.map((data,banner)=>{
       <Review/>
     </div>
     <Footer/>
-
     </>
   );
 }

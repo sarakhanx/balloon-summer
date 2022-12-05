@@ -42,9 +42,11 @@ function QouteBanner() {
             > lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum<br/>
             lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum <br/>
             lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem </p>
-            <button 
+            <a href='https://lin.ee/e6yFjcC' target='blank'>
+              <button 
             data-aos="fade-up"
             className='btn btn-light servicesbtn rounded-pill'>จองคิว CLICK!! เลย</button>
+            </a>
             </div>
         </div>
         

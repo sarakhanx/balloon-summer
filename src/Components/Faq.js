@@ -1,27 +1,55 @@
 import Navbars from "./Navbars";
-import Logo from '../data/asset/Logo.png';
-
+import Footer from "./Footer";
 
 function Faq(){
-
-    return(
+    return (
         <>
         <Navbars/>
-        <div className="">
-        <div className="col text-center faqheader mt-1 pb-5">
-            <h1 className="text-center">KEEP IN TOUCH</h1>
-            <img width="200" height="auto" src={Logo} className='' alt="logofooter"/>
-            <div className="container pt-2"><h3>FOLLOW US</h3>
-            <ul className="navbar justify-content-center ps-0">
-            <a href='https://www.facebook.com/Balloonsummerpattaya' className="creditsfooter p-1"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
-            <a href='https://www.instagram.com/balloonsummer_pattaya/' className="creditsfooter p-1"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
-            <a href='https://lin.ee/e6yFjcC' className="creditsfooter p-1"><i class="fa-brands fa-line fa-xl"></i></a>
-            </ul></div>
-            
-        <div className="container ratio ratio-16x9 text-center">
-        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.583662402317!2d100.89908138515158!3d12.934459054831333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310295efff16e8a7%3A0x1735a4623e0c34b3!2z4Lij4LmJ4Liy4LiZ4Lil4Li54LiB4LmC4Lib4LmI4LiHIOC4nuC4seC4l-C4ouC4siBCYWxsb29uIFBhdHRheWEgU3VtbWVy!5e0!3m2!1sth!2sth!4v1669973204923!5m2!1sth!2sth" width="400" height="600" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div></div></div>
+        <div className="accordion accordion-flush p-2">
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ลูกโป่งลอยได้นานแค่ไหน
+      </button>
+    </h2>
+    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        ต้องออเดอร์ล่วงหน้าไหม
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        มีบริการจัดส่งไหม
+      </button>
+    </h2>
+    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body">Nah</div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        เปิดกี่โมง ถึงกี่โมง
+      </button>
+    </h2>
+    <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+<Footer/>
         </>
     )
 }
+
 export default Faq;
