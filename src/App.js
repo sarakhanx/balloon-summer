@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
 import Navbars from './Components/Navbars';
 import Header from './Components/Header';
 import bannerdatas from './data/asset/BannerDatas';

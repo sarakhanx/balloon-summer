@@ -29,3 +29,15 @@ nav {
 a {
     text-decoration: none;
   }
+  .faqheader {
+    background-color: #ffb7cd;
+    border-radius: 50px 50px 0px 0px;
+  }
+  .creditsfooter{
+    font-size: 2em;
+    color: #686667;
+  }
+  .maps {
+    background-color: #ffb7cd;
+    
+  }
