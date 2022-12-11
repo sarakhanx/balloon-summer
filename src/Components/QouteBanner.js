@@ -23,10 +23,19 @@ function QouteBanner() {
             data-aos="fade-up"
             data-aos-duration="1000"
             className='text-center mt-2'>HAPPINESS IS IN THE AIR</h1>
+            <h3 
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-center"> ร้านลูกโป่งพัทยา Balloon Summer Pattaya</h3>
+            <br/>
+            <br/>
+            <br/>
             <p 
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="text-center"> happy birthday happy valentine happy anything i will wrote on here</p>
+            className="text-center">ให้บริการสินค้าประเภทลูกโป่งอัด Helium Gas , ช่อดอกไม้สดนำเข้า , ตุ้กตาหมี Jumbo size<br/>
+            Backdrop ลูกโป่ง , ดอกไม้ โต๊ะขนม ด้วยทีมงานมืออาชีพ
+            </p>
             <div className='row'>
             {cardEle}
             </div>
@@ -37,15 +46,25 @@ function QouteBanner() {
             <h1 
             data-aos="fade-up"
             data-aos-duration="1000"
-            className='pt-2'>บริการส่งด่วน ภายใน1ชม.</h1>
-            <p className=''
-            > lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum<br/>
-            lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum <br/>
-            lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem </p>
-            <a href='https://lin.ee/e6yFjcC' target='blank'>
-              <button 
+            className='pt-2'>เช็คคิวจัดส่ง & จองคิวจัดส่งลูกโป่ง</h1>
+            <h3 
             data-aos="fade-up"
-            className='btn btn-light servicesbtn rounded-pill'>จองคิว CLICK!! เลย</button>
+            data-aos-duration="1000"
+            className=''>ส่งด่วนใน 2 ชั่วโมง อีกระดับของการบริการ
+            </h3>
+            <br/>
+            <br/>
+            <p className=''
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            > บริการจัดส่งทั่วพื้นที่พัทยา บางแสน ชลบุรี ไม่จำเป็นต้องซื้อขั้นต่ำ คิดค่าจัดส่งตามระยะทาง ปรึกษาฟรี !</p>
+            <a href='https://lin.ee/e6yFjcC' target='blank'>
+              
+            <br/>
+            <br/>
+            <button 
+            data-aos="fade-up"
+            className='btn btn-light servicesbtn rounded-pill'>คลิกเพื่อจองคิว</button>
             </a>
             </div>
         </div>

@@ -24,11 +24,8 @@ function Footer(){
                 </div>
                 <div className='col-md-4 p-2'>
                     <h4 className='text-secondary'>Q&A</h4>
-                    <Link to='questions-and-answer'>
-                        <li>How Long For Float Balloons</li>
-                        <li>Must Order In Advance ?</li>
-                        <li>How Far Do We Delivery</li>
-                        <li>What Time We Open</li>
+                    <Link to='/questions-and-answer'>
+                        <li className=''> All The Questions is here</li>
                         </Link>
                 </div>
             </div>
